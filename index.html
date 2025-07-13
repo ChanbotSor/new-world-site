@@ -15,6 +15,7 @@
         background-color: #007BFF;
         padding: 10px;
         text-align: center;
+        margin-top: 30px;
       }
       nav a {
         color: white;
@@ -34,21 +35,29 @@
       p {
         font-size: 18px;
       }
-      .about-link {
-        display: inline-block;
+      .social-links {
         margin-top: 30px;
-        padding: 10px 20px;
+        text-align: center;
+      }
+      .social-links a {
+        display: inline-block;
+        margin: 0 10px;
+        padding: 10px 15px;
         background-color: #28a745;
         color: white;
         text-decoration: none;
         border-radius: 5px;
       }
-      .about-link:hover {
+      .social-links a:hover {
         background-color: #1e7e34;
       }
     </style>
   </head>
   <body>
+    <h1>Welcome to <span style="color:red">CHANBOT Stories</span></h1>
+    <p>Are you new here?</p>
+
+    <!-- Navigation buttons -->
     <nav>
       <a href="https://chanbotsor.github.io/new-world-site/">HOME</a>
       <a href="https://www.google.com">1</a>
@@ -59,9 +68,11 @@
       <a href="https://www.google.com">Next</a>
     </nav>
 
-    <h1>Welcome to <span style="color:red">CHANBOT Stories</span></h1>
-    <p>Are you new here?</p>
-
-    <a href="https://www.linkedin.com/in/chanbot-sor-840621297/">About us</a> <a href="https://www.facebook.com/Chanbot.Sor/">Facebook</a> <a href="https://t.me/chanbotsor_28">Telegram</a>
+    <!-- Social links go under the buttons now -->
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/chanbot-sor-840621297/">About us</a>
+      <a href="https://www.facebook.com/Chanbot.Sor/">Facebook</a>
+      <a href="https://t.me/chanbotsor_28">Telegram</a>
+    </div>
   </body>
 </html>
